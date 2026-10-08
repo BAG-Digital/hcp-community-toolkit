@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts and dependency directories
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local logs and scratch files
+*.log
+tmp/
+scratch/
